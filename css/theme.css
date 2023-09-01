@@ -1,0 +1,127 @@
+/* General*/
+
+.footer-top.has-footer-menu {
+    display: none;
+}
+
+.footer-nav-widgets-wrapper.header-footer-group {
+    display: none;
+}
+
+.hide {
+    display: none;
+}
+
+
+/* Réinitialisez les marges et les rembourrages par défaut */
+body.template-full-width .entry-content>*:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
+    width: 100%;
+}
+
+.singular .entry-header {
+    padding: 0px;
+}
+
+
+/* Footer */
+.custom-footer {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 16px;
+    color: #000;
+    font-style: normal;
+    text-align: center;
+    font-family: Syne;
+}
+
+
+
+
+
+/* LIENS DU MENU */
+
+
+.primary-menu.reset-list-style {
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    font-family: Syne;
+
+}
+
+.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-49 {
+    color: #000000 !important;
+    display: inline-block;
+    padding: 10px 25px;
+    text-align: center;
+    font-family: Syne;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-48 {
+    color: #FFF !important;
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #DC9F96;
+    text-align: center;
+
+
+
+}
+
+
+
+.header-inner {
+    padding: 0px;
+}
+
+.section-inner {
+    margin-right: 0px;
+}
+
+.precommande-container {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+
+}
+
+.quantity-controls {
+    display: flex;
+    gap: 0px;
+
+
+}
+
+.quantity-square {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.quantity-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.quantity-buttons button {
+    background-color: #DC9F96;
+    border: none;
+    color: #ffffff;
+    padding: 0px;
+    width: 31px;
+    height: 20px;
+
+    border-radius: 4px;
+}

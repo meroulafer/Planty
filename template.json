@@ -22,7 +22,8 @@
           "Type": "AWS::SQS::QueuePolicy",
           "Properties": {
               "PolicyDocument": {
-                  "Statement": [
+                "Version": "2012-10-17",  
+                "Statement": [
                       {
                           "Action": "sqs:*",
                           "Effect": "Allow",
@@ -71,11 +72,6 @@
                       "PolicyDocument": {
                           "Version": "2012-10-17",
                           "Statement": [
-                              {
-                                  "Effect": "Allow",
-                                  "Action": "sqs:ThisActionDoesNotExist",
-                                  "Resource": "*"
-                              },
                               {
                                   "Effect": "Allow",
                                   "Action": "sqs:ReceiveMessage",

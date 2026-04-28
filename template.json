@@ -34,7 +34,6 @@
                           },
                           "Principal": {
                               "AWS": [
-                                "111122223333",
                                 {"Ref": "AWS::AccountId"}
                               ]
                           }

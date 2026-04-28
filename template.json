@@ -4,7 +4,7 @@
   "Parameters": {
       "QueueName": {
           "Type": "String",
-          "Description": "The name of the queue to grant read permissions to. "
+          "Description": "The name of the queue to grant read permissions to."
       },
       "RoleName": {
           "Type": "String",
@@ -81,7 +81,7 @@
                                   "Effect": "Allow",
                                   "Action": "sqs:ReceiveMessage",
                                   "Resource": {
-                                      "Fn::Sub": "arn:aws:sqs:\${AWS::Region}:\${AWS::AccountId}:\${QueueName}"
+                                      "Fn::Sub": "arn:aws:sqs:${AWS::Region}:${AWS::AccountId}:${QueueName}"
                                   }
                               }
                           ]
